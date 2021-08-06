@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c4a81303173dd7408dbe01dd8711824, type: 3}
+  m_Name: MatColor_Up
+  m_EditorClassIdentifier: 
+  on: 1
+  effectSettings:
+  - paramName: 
+    minMax: {x: 0, y: 1}
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  mats:
+  - {fileID: 2100000, guid: 1822441a4dab29147800ffdae73f7ee3, type: 2}
+  - {fileID: 2100000, guid: 2b8f135c8f591134e947c35852f0edfd, type: 2}
+  a: {r: 1, g: 1, b: 1, a: 0}
+  b: {r: 1, g: 1, b: 1, a: 1}

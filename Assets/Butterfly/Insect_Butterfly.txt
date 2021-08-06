@@ -1,0 +1,56 @@
+< Animated Butterfly >
+
+ABOUT:
+ • A game-ready butterfly with 3 variations and 19 animations (Listed below)
+ • Latest Version: 06-19-2015
+ 
+MODEL: (Insect_Butterfly*.fbx)
+ • SPEC: One mesh, 1069 polygons, 607 Vertices
+ • RIG: 46 Joints
+ • DIMENSIONS: X: 2.58cm, Y: 0.13cm, Z: 2.05cm
+
+TEXTURE: (Insect_Butterfly##_*.*)
+ • VARIATION: Monarch(00), Morpho(01), Lime(02)
+ • TYPE: Diffuse(D), Specular(S), Gloss(G), Normal(N), Alpha(A)
+ • FORMAT: .png (512 x 512 24 bits) .tga (512 x 512 32 bits)
+
+ANIMATION: (Insect_Butterfly*.fbx)
+ • INFO: 19 Animations, NTSC 30fps
+ • 00. F000-F000 (01F): Bind Pose (F: Frame)
+ • 01. F002-F018 (16F): Idle Loop
+ • 02 .F018-F021 (03F): Idle Feed Start
+ • 02 .F021-F037 (16F): Idle Feed Loop 
+ • 02 .F037-F040 (03F): Idle Feed End
+ • 03. F040-F042 (02F): Idle Look Left
+ • 04. F060-F062 (02F): Idle Look Left Off
+ • 05. F080-F082 (02F): Idle Look Right
+ • 06. F100-F102 (02F): Idle Look Right Off
+ • 07. F120-F128 (08F): Turn Left 90
+ • 08. F140-F148 (08F): Turn Left Off
+ • 09. F160-F168 (08F): Turn Right 90
+ • 10. F180-F188 (08F): Turn Right Off
+ • 11. F200-F214 (14F): Turn Left 180
+ • 12. F230-F244 (14F): Turn Right 180
+ • 13. F260-F272 (12F): Hop Forward (Z: 2cm)
+ • 14. F290-F302 (12F): Hop Backward (Z: 2cm)
+ • 15. F320-F332 (12F): Hop Left (X: 2cm)
+ • 16. F350-F362 (12F): Hop Right (X: 2cm)
+ • 17. F380-F392 (12F): Hop
+ • 18. F410-F420 (10F): Flight Take Off
+ • 18. F420-F428 (08F): Flight Loop
+ • 18. F460-F470 (10F): Flight Land
+ • Insect_Butterfly_Game.fbx: Root Node (Insect_Butterfly_Origin) has zero animation for user input
+ • Insect_Butterfly.fbx: Root Node (Insect_Butterfly_Origin) has translation animations as demo
+  
+TAG: 
+ Creature Animal Insect Bug Butterfly Winged Wings Monarch Blue Morpho Lime
+
+LINK / CONTACT:
+ • SKETCHFAB (00): https://sketchfab.com/models/b04ee6eaca9c43e8886e41ffcba7ba90
+ • SKETCHFAB (01): https://sketchfab.com/models/6d075c42be7a464ba0f1becba60f9b8e
+ • SKETCHFAB (02): https://sketchfab.com/models/1772c5d9367f4abeb04bf5421640c8b8
+ • TURBOSQUID: http://www.turbosquid.com/Search/Artists/hinxlinx
+ • CGTRADER: http://www.cgtrader.com/hinxlinx
+ • EMAIL: hinxlinx@yahoo.com
+ 
+Eric "Lynx" Lin © 2015 All Rights Reserved

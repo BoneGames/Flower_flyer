@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fire
+  - windArea
+  - North
+  - South
+  - East
+  - West
+  - Portal
+  - vertStop
+  - vertStopN
+  - vertStopS
+  - cup_pivot
+  - perimeter
+  - circle
+  - centre
+  - melody
+  - arp2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Portals
+  - Bender
+  - tile
+  - PostProcessing
+  - seeds
+  - cups
+  - Butterflies
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

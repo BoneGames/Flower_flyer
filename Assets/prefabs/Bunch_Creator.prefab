@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6449553489169079575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6449553489169079573}
+  - component: {fileID: 4635413985237150483}
+  m_Layer: 0
+  m_Name: Bunch_Creator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6449553489169079573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6449553489169079575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4635413985237150483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6449553489169079575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac08d5ca517b2144087b1ebdf653c526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowers:
+  - {fileID: 1529588088657879002, guid: 2cad9198d3497294198fcb9a0a6f4c46, type: 3}
+  - {fileID: 264425619878432274, guid: e2bb968414c703a419cf5d838e6b1b24, type: 3}
+  - {fileID: 2865431601929239068, guid: c0b94e909e6bb2b4586135baaba834ba, type: 3}
+  - {fileID: 8687981179059871002, guid: 1fd935e938cf2cf4a802500543b993e1, type: 3}
+  quantityRange: {x: 5, y: 9}
+  sectionHeightRange: {x: 30, y: 60}
+  baseRotationRange: {x: -7, y: 7}
+  leafQuantityRange: {x: 2, y: 6}
+  stalkRotationRange: {x: -0.7, y: 0.7}
+  basePositionRange: {x: -4, y: 4}
+  assymBendScaleRange: {x: 0, y: 0.05}
+  minDistance: 20
+  bunchParentScale: 0.2
+  tilePrefab: {fileID: 2738804739297270239, guid: 126742e382f19154fa92256d46e8019b,
+    type: 3}
+  bunchQuantityRange: {x: 6, y: 11}
+  minBunchDistance: 1
+  size: 70000
+  scale: 7000
+  buildTilePrefab: {fileID: 0}

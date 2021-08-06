@@ -1,0 +1,2235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Feed_End
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.031453487, y: 1.7527885e-14, z: 6.5729587e-15, w: 0.9995011}
+        inSlope: {x: 0.19384411, y: 7.887561e-13, z: 2.9578363e-13, w: 0.0058650956}
+        outSlope: {x: 0.19384411, y: 7.887561e-13, z: 2.9578363e-13, w: 0.0058650956}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.011635294, y: 0, z: -0, w: 0.99993235}
+        inSlope: {x: 0.3490349, y: -2.3662682e-12, z: -8.8735085e-13, w: 0.004060868}
+        outSlope: {x: 0.3490349, y: -2.3662682e-12, z: -8.8735085e-13, w: 0.004060868}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -9.332027e-27, y: -1.5775106e-13, z: -5.9156666e-14, w: 1}
+        inSlope: {x: 0.15626828, y: -1.0461888, z: -0.26114774, w: -0.037802953}
+        outSlope: {x: 0.15626828, y: -1.0461888, z: -0.26114774, w: -0.037802953}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.031453487, y: 8.7639424e-15, z: 0, w: 0.9995011}
+        inSlope: {x: -0.19384411, y: 3.9437805e-13, z: 0, w: 0.0058650956}
+        outSlope: {x: -0.19384411, y: 3.9437805e-13, z: 0, w: 0.0058650956}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.011635294, y: -0, z: -0, w: 0.99993235}
+        inSlope: {x: -0.3490349, y: -1.1831341e-12, z: 0, w: 0.004060868}
+        outSlope: {x: -0.3490349, y: -1.1831341e-12, z: 0, w: 0.004060868}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0, y: -7.887553e-14, z: -0, w: 1}
+        inSlope: {x: -0.17452958, y: -0.52349293, z: 0, w: -0.008122598}
+        outSlope: {x: -0.17452958, y: -0.52349293, z: 0, w: -0.008122598}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.13917312, y: -0, z: -0, w: 0.9902681}
+        inSlope: {x: -0.65485847, y: 0, z: 0, w: 0.075682774}
+        outSlope: {x: -0.65485847, y: 0, z: 0, w: 0.075682774}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 0.09294977, y: -0, z: -0, w: 0.99567086}
+        inSlope: {x: -1.3897158, y: 0, z: 0, w: 0.1297347}
+        outSlope: {x: -1.3897158, y: 0, z: 0, w: 0.1297347}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.046525322, y: -0, z: -0, w: 0.9989171}
+        inSlope: {x: -1.3942485, y: -4.7325364e-12, z: -4.732537e-12, w: 0.064937234}
+        outSlope: {x: -1.3942485, y: -4.7325364e-12, z: -4.732537e-12, w: 0.064937234}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.000000043286946, y: -3.1550213e-13, z: -3.1550215e-13, w: 1}
+        inSlope: {x: -1.5015953, y: -1.9938751, z: -2.13817, w: -0.29339528}
+        outSlope: {x: -1.5015953, y: -1.9938751, z: -2.13817, w: -0.29339528}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.13841072, y: -0.10351121, z: 0.014547551, w: 0.9848433}
+        inSlope: {x: -1.1609237, y: 0.00823857, z: -0.12481466, w: 0.11546788}
+        outSlope: {x: -1.1609237, y: 0.00823857, z: -0.12481466, w: 0.11546788}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 0.05782617, y: -0.10435162, z: 0.0060777753, w: 0.99283934}
+        inSlope: {x: -2.4232807, y: -0.0148342615, z: -0.25469705, w: 0.14113933}
+        outSlope: {x: -2.4232807, y: -0.0148342615, z: -0.25469705, w: 0.14113933}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.023141466, y: -0.10450016, z: -0.0024322663, w: 0.9942526}
+        inSlope: {x: -2.4267325, y: 0.005936628, z: -0.2550599, w: -0.056482904}
+        outSlope: {x: -2.4267325, y: 0.005936628, z: -0.2550599, w: -0.056482904}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.10395584, y: -0.10395584, z: -0.0109262, w: 0.9890738}
+        inSlope: {x: 0.08728731, y: -0.26025862, z: 0.0045804083, w: -0.02786478}
+        outSlope: {x: 0.08728731, y: -0.26025862, z: 0.0045804083, w: -0.02786478}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Antenna00_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.0677187, y: -0.10496279, z: 0.0071716905, w: 0.9921508}
+        inSlope: {x: 0.059040565, y: 0.026807452, z: 0.004395645, w: -0.0012588502}
+        outSlope: {x: 0.059040565, y: 0.026807452, z: 0.004395645, w: -0.0012588502}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.06937434, y: -0.10427384, z: 0.007291537, w: 0.9920993}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.06934252, y: -0.10860311, z: 0.0075942697, w: 0.99164426}
+        inSlope: {x: -0.0019879623, y: -0.25961772, z: 0.018154278, w: -0.02843318}
+        outSlope: {x: -0.0019879623, y: -0.25961772, z: 0.018154278, w: -0.02843318}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Antenna00_L/Antenna01_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.105595276, y: -0.10461351, z: -0.011163861, w: 0.988837}
+        inSlope: {x: 0.058361966, y: 0.02563689, z: 0.008983948, w: 0.009014905}
+        outSlope: {x: 0.058361966, y: 0.02563689, z: 0.008983948, w: 0.009014905}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.10395584, y: -0.10395584, z: -0.0109262, w: 0.9890738}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.10390817, y: -0.10827191, z: -0.011379837, w: 0.98862016}
+        inSlope: {x: 0.002979261, y: -0.25882602, z: -0.027203724, w: -0.028347349}
+        outSlope: {x: 0.002979261, y: -0.25882602, z: -0.027203724, w: -0.028347349}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Antenna00_L/Antenna01_L/Antenna02_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.13841072, y: 0.10351121, z: -0.014547551, w: 0.9848433}
+        inSlope: {x: -1.1609237, y: -0.00823857, z: 0.12481466, w: 0.11546788}
+        outSlope: {x: -1.1609237, y: -0.00823857, z: 0.12481466, w: 0.11546788}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 0.05782617, y: 0.10435162, z: -0.0060777753, w: 0.99283934}
+        inSlope: {x: -2.4232807, y: 0.0148342615, z: 0.25469705, w: 0.14113933}
+        outSlope: {x: -2.4232807, y: 0.0148342615, z: 0.25469705, w: 0.14113933}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.023141466, y: 0.10450016, z: 0.0024322663, w: 0.9942526}
+        inSlope: {x: -2.4267325, y: -0.005936628, z: 0.2550599, w: -0.056482904}
+        outSlope: {x: -2.4267325, y: -0.005936628, z: 0.2550599, w: -0.056482904}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.10395584, y: 0.10395584, z: 0.0109262, w: 0.9890738}
+        inSlope: {x: 0.08633208, y: -0.26036474, z: -0.013667747, w: 0.02685482}
+        outSlope: {x: 0.08633208, y: -0.26036474, z: -0.013667747, w: 0.02685482}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Antenna00_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.0677187, y: 0.10496279, z: -0.0071716905, w: 0.9921508}
+        inSlope: {x: 0.059040565, y: -0.026807452, z: -0.004395645, w: -0.0012588502}
+        outSlope: {x: 0.059040565, y: -0.026807452, z: -0.004395645, w: -0.0012588502}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.06937434, y: 0.10427384, z: -0.007291537, w: 0.9920993}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.06937434, y: 0.10427384, z: -0.007291537, w: 0.9920993}
+        inSlope: {x: 0.0017503604, y: -0.25995544, z: 0.01817784, w: 0.025031203}
+        outSlope: {x: 0.0017503604, y: -0.25995544, z: 0.01817784, w: 0.025031203}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Antenna00_R/Antenna01_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.105595276, y: 0.10461351, z: 0.011163861, w: 0.988837}
+        inSlope: {x: 0.058361966, y: -0.02563689, z: -0.008983948, w: 0.009014905}
+        outSlope: {x: 0.058361966, y: -0.02563689, z: -0.008983948, w: 0.009014905}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.10395584, y: 0.10395584, z: 0.0109262, w: 0.9890738}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.10400352, y: 0.09963977, z: 0.010472562, w: 0.9895274}
+        inSlope: {x: -0.0027416623, y: -0.25906363, z: -0.027228674, w: 0.026085354}
+        outSlope: {x: -0.0027416623, y: -0.25906363, z: -0.027228674, w: 0.026085354}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Antenna00_R/Antenna01_R/Antenna02_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.06975647, y: -0, z: -0, w: 0.9975641}
+        inSlope: {x: 3.0752816, y: 0, z: 0, w: -0.507444}
+        outSlope: {x: 3.0752816, y: 0, z: 0, w: -0.507444}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 0.26443455, y: -0, z: -0, w: 0.9644037}
+        inSlope: {x: 5.6856346, y: 0, z: 0, w: -1.5589712}
+        outSlope: {x: 5.6856346, y: 0, z: 0, w: -1.5589712}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.4487991, y: -0, z: -0, w: 0.89363265}
+        inSlope: {x: 5.2684093, y: 0, z: 0, w: -2.6458962}
+        outSlope: {x: 5.2684093, y: 0, z: 0, w: -2.6458962}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.6156615, y: -0, z: -0, w: 0.7880108}
+        inSlope: {x: 2.5029383, y: 0, z: 0, w: -1.5843296}
+        outSlope: {x: 2.5029383, y: 0, z: 0, w: -1.5843296}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Mouth00
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13917312, y: 0, z: -0, w: 0.9902681}
+        inSlope: {x: 4.615322, y: 0, z: 0, w: -0.092523485}
+        outSlope: {x: 4.615322, y: 0, z: 0, w: -0.092523485}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 0.17364874, y: -0, z: -0, w: 0.98480767}
+        inSlope: {x: 9.129662, y: 0, z: 0, w: -1.6098086}
+        outSlope: {x: 9.129662, y: 0, z: 0, w: -1.6098086}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.46947154, y: -0, z: -0, w: 0.8829476}
+        inSlope: {x: 8.185373, y: 0, z: 0, w: -4.3522434}
+        outSlope: {x: 8.185373, y: 0, z: 0, w: -4.3522434}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.7193398, y: 0, z: 0, w: 0.6946584}
+        inSlope: {x: 3.7480273, y: 0, z: 0, w: -2.824341}
+        outSlope: {x: 3.7480273, y: 0, z: 0, w: -2.824341}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Mouth00/Mouth01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13917312, y: 0, z: -0, w: 0.9902681}
+        inSlope: {x: 4.615322, y: 0, z: 0, w: -0.092523485}
+        outSlope: {x: 4.615322, y: 0, z: 0, w: -0.092523485}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 0.17364874, y: -0, z: -0, w: 0.98480767}
+        inSlope: {x: 9.129662, y: 0, z: 0, w: -1.6098086}
+        outSlope: {x: 9.129662, y: 0, z: 0, w: -1.6098086}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.46947154, y: -0, z: -0, w: 0.8829476}
+        inSlope: {x: 8.185373, y: 0, z: 0, w: -4.3522434}
+        outSlope: {x: 8.185373, y: 0, z: 0, w: -4.3522434}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.7193398, y: 0, z: 0, w: 0.6946584}
+        inSlope: {x: 3.7480273, y: 0, z: 0, w: -2.824341}
+        outSlope: {x: 3.7480273, y: 0, z: 0, w: -2.824341}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Mouth00/Mouth01/Mouth02
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13917312, y: 0, z: -0, w: 0.9902681}
+        inSlope: {x: 4.615322, y: 0, z: 0, w: -0.092523485}
+        outSlope: {x: 4.615322, y: 0, z: 0, w: -0.092523485}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 0.17364874, y: -0, z: -0, w: 0.98480767}
+        inSlope: {x: 9.129662, y: 0, z: 0, w: -1.6098086}
+        outSlope: {x: 9.129662, y: 0, z: 0, w: -1.6098086}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.46947154, y: -0, z: -0, w: 0.8829476}
+        inSlope: {x: 8.185373, y: 0, z: 0, w: -4.3522434}
+        outSlope: {x: 8.185373, y: 0, z: 0, w: -4.3522434}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.7193398, y: 0, z: 0, w: 0.6946584}
+        inSlope: {x: 3.7480273, y: 0, z: 0, w: -2.824341}
+        outSlope: {x: 3.7480273, y: 0, z: 0, w: -2.824341}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Mouth00/Mouth01/Mouth02/Mouth03
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13917312, y: 0, z: -0, w: 0.9902681}
+        inSlope: {x: 4.615322, y: 0, z: 0, w: -0.092523485}
+        outSlope: {x: 4.615322, y: 0, z: 0, w: -0.092523485}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 0.17364874, y: -0, z: -0, w: 0.98480767}
+        inSlope: {x: 9.129662, y: 0, z: 0, w: -1.6098086}
+        outSlope: {x: 9.129662, y: 0, z: 0, w: -1.6098086}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.46947154, y: -0, z: -0, w: 0.8829476}
+        inSlope: {x: 8.185373, y: 0, z: 0, w: -4.3522434}
+        outSlope: {x: 8.185373, y: 0, z: 0, w: -4.3522434}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.7193398, y: 0, z: 0, w: 0.6946584}
+        inSlope: {x: 3.7480273, y: 0, z: 0, w: -2.824341}
+        outSlope: {x: 3.7480273, y: 0, z: 0, w: -2.824341}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Mouth00/Mouth01/Mouth02/Mouth03/Mouth04
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13917312, y: 0, z: -0, w: 0.9902681}
+        inSlope: {x: 4.615322, y: 0, z: 0, w: -0.092523485}
+        outSlope: {x: 4.615322, y: 0, z: 0, w: -0.092523485}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 0.17364874, y: -0, z: -0, w: 0.98480767}
+        inSlope: {x: 9.129662, y: 0, z: 0, w: -1.6098086}
+        outSlope: {x: 9.129662, y: 0, z: 0, w: -1.6098086}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.46947154, y: -0, z: -0, w: 0.8829476}
+        inSlope: {x: 8.185373, y: 0, z: 0, w: -4.3522434}
+        outSlope: {x: 8.185373, y: 0, z: 0, w: -4.3522434}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.7193398, y: 0, z: 0, w: 0.6946584}
+        inSlope: {x: 3.7480273, y: 0, z: 0, w: -2.824341}
+        outSlope: {x: 3.7480273, y: 0, z: 0, w: -2.824341}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Head/Mouth00/Mouth01/Mouth02/Mouth03/Mouth04/Mouth05
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.039696064, y: 0.25670326, z: -0.11263245, w: 0.95908374}
+        inSlope: {x: -0.2873162, y: -0.012191506, z: -0.027329862, w: -0.014487482}
+        outSlope: {x: -0.2873162, y: -0.012191506, z: -0.027329862, w: -0.014487482}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.075751014, y: 0.25523472, z: -0.10923815, w: 0.9576973}
+        inSlope: {x: -0.50819504, y: -0.02130436, z: 0.13257657, w: -0.019285996}
+        outSlope: {x: -0.50819504, y: -0.02130436, z: 0.13257657, w: -0.019285996}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.0921002, y: 0.25454322, z: -0.10334885, w: 0.95710206}
+        inSlope: {x: -0.56780374, y: 1.4412436, z: 1.9144386, w: -0.42811254}
+        outSlope: {x: -0.56780374, y: 1.4412436, z: 1.9144386, w: -0.42811254}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg00_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 5.8132036e-15, y: 1.296216e-15, z: 0.34452015, w: 0.93883157}
+        inSlope: {x: -1.2255124e-15, y: -1.792639e-16, z: -0.07125138, w: 0.025631184}
+        outSlope: {x: -1.2255124e-15, y: -1.792639e-16, z: -0.07125138, w: 0.025631184}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 5.678727e-15, y: 1.277568e-15, z: 0.3366889, w: 0.941616}
+        inSlope: {x: -7.31521e-15, y: -1.0008444e-15, z: -0.42617017, w: 0.15109679}
+        outSlope: {x: -7.31521e-15, y: -1.0008444e-15, z: -0.42617017, w: 0.15109679}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 5.391679e-15, y: 1.2419774e-15, z: 0.31992173, w: 0.94744396}
+        inSlope: {x: -1.0100243e-14, y: -1.0029679e-15, z: -0.5932721, w: 0.19828159}
+        outSlope: {x: -1.0100243e-14, y: -1.0029679e-15, z: -0.5932721, w: 0.19828159}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 5.005378e-15, y: 1.2107036e-15, z: 0.29713747, w: 0.95483476}
+        inSlope: {x: -0.00000000690792, y: -0.0000000013120709, z: -1.9997008, w: 0.5248564}
+        outSlope: {x: -0.00000000690792, y: -0.0000000013120709, z: -1.9997008, w: 0.5248564}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg00_L/Knee00_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.009155486, y: -0.0008630928, z: -0.45158646, w: 0.89217997}
+        inSlope: {x: 0.26975808, y: -0.021033602, z: 0.19375277, w: 0.09022653}
+        outSlope: {x: 0.26975808, y: -0.021033602, z: 0.19375277, w: 0.09022653}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.044825163, y: -0.002865868, z: -0.41844466, w: 0.90713096}
+        inSlope: {x: 0.5260388, y: -0.0039648116, z: 0.583419, w: 0.24215186}
+        outSlope: {x: 0.5260388, y: -0.0039648116, z: 0.583419, w: 0.24215186}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.062191147, y: -0.0024823633, z: -0.39746836, w: 0.9155026}
+        inSlope: {x: 0.8846266, y: 0.15855873, z: 0.7289494, w: 0.24168831}
+        outSlope: {x: 0.8846266, y: 0.15855873, z: 0.7289494, w: 0.24168831}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg00_L/Knee00_L/Foot00_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0000000056190808, y: -0.0000000015056432, z: -0.25881907, w: 0.9659258}
+        inSlope: {x: 0.00000006366445, y: 0.000000017058966, z: 0, w: 0}
+        outSlope: {x: 0.00000006366445, y: 0.000000017058966, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.0000000025954523, y: 6.9544953e-10, z: -0.25881907, w: 0.9659259}
+        inSlope: {x: 0.00000010160679, y: 0.000000027225639, z: 0, w: 0}
+        outSlope: {x: 0.00000010160679, y: 0.000000027225639, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg00_L/Knee00_L/Foot00_L/Toe00_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.0931502, y: 0.00036579953, z: -0.09502357, w: 0.99110717}
+        inSlope: {x: -0.3129619, y: -0.0012289754, z: -0.059921417, w: 0.020312302}
+        outSlope: {x: -0.3129619, y: -0.0012289754, z: -0.059921417, w: 0.020312302}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.05084034, y: 0.00019964906, z: -0.09583281, w: 0.99409825}
+        inSlope: {x: -0.636725, y: -0.002498759, z: 0.05621424, w: 0.03791932}
+        outSlope: {x: -0.636725, y: -0.002498759, z: 0.05621424, w: 0.03791932}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.029611263, y: 0.00011639499, z: -0.09281222, w: 0.9952432}
+        inSlope: {x: -0.73487556, y: 1.5658699, z: 1.1429226, w: 0.003321522}
+        outSlope: {x: -0.73487556, y: 1.5658699, z: 1.1429226, w: 0.003321522}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg01_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0, z: 0.3273241, w: 0.9449086}
+        inSlope: {x: 0, y: 0, z: 0.1299175, w: -0.04472584}
+        outSlope: {x: 0, y: 0, z: 0.1299175, w: -0.04472584}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0, y: 0, z: 0.329294, w: 0.94422746}
+        inSlope: {x: 0, y: 0, z: -0.1068222, w: 0.036958195}
+        outSlope: {x: 0, y: 0, z: -0.1068222, w: 0.036958195}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0, y: 0, z: 0.3234025, w: 0.9462615}
+        inSlope: {x: 0, y: 0, z: -0.8947534, w: 0.28099117}
+        outSlope: {x: 0, y: 0, z: -0.8947534, w: 0.28099117}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg01_L/Knee01_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.09291284, y: 0.006655374, z: -0.47348824, w: 0.87586063}
+        inSlope: {x: 0.31294087, y: -0.011339514, z: -0.07625736, w: -0.011752585}
+        outSlope: {x: 0.31294087, y: -0.011339514, z: -0.07625736, w: -0.011752585}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.050702553, y: 0.0037464336, z: -0.47645786, w: 0.8777261}
+        inSlope: {x: 0.63469946, y: -0.05108624, z: 0.03145519, w: 0.053880267}
+        outSlope: {x: 0.63469946, y: -0.05108624, z: 0.03145519, w: 0.053880267}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.029544033, y: 0.0019979575, z: -0.47412696, w: 0.87995845}
+        inSlope: {x: 0.7021607, y: -0.055541344, z: 0.03336046, w: 0.039964035}
+        outSlope: {x: 0.7021607, y: -0.055541344, z: 0.03336046, w: 0.039964035}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg01_L/Knee01_L/Foot01_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 2.1581315e-10, y: 0.0000000029613707, z: -0.25881913, w: 0.9659257}
+        inSlope: {x: 0.0000000374278, y: 9.272942e-10, z: -0.00000003649264, w: 0.00000029194112}
+        outSlope: {x: 0.0000000374278, y: 9.272942e-10, z: -0.00000003649264, w: 0.00000029194112}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.0000000037771777, y: 0.000000003040317, z: -0.25881913, w: 0.96592575}
+        inSlope: {x: 0.000000033433484, y: 6.5804406e-10, z: 0, w: 0.0000003831727}
+        outSlope: {x: 0.000000033433484, y: 6.5804406e-10, z: 0, w: 0.0000003831727}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg01_L/Knee01_L/Foot01_L/Toe01_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.2006055, y: -0.2608624, z: -0.19758934, w: 0.9233995}
+        inSlope: {x: -0.26192147, y: 0.007809683, z: 0.011700802, w: 0.05874914}
+        outSlope: {x: -0.26192147, y: 0.007809683, z: 0.011700802, w: 0.05874914}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.16345175, y: -0.25997117, z: -0.19176143, w: 0.93216205}
+        inSlope: {x: -0.5791284, y: 0.014560386, z: 0.12484823, w: 0.131001}
+        outSlope: {x: -0.5791284, y: 0.014560386, z: 0.12484823, w: 0.131001}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.14380516, y: -0.25946248, z: -0.18698463, w: 0.93650204}
+        inSlope: {x: -0.78918374, y: 1.5394275, z: 0.43014878, w: 0.5324334}
+        outSlope: {x: -0.78918374, y: 1.5394275, z: 0.43014878, w: 0.5324334}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg02_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -1.4763882e-13, y: -3.504517e-14, z: 0.45219857, w: 0.89191735}
+        inSlope: {x: -4.7733966e-14, y: -2.0191592e-14, z: 0.1383155, w: -0.0704508}
+        outSlope: {x: -4.7733966e-14, y: -2.0191592e-14, z: 0.1383155, w: -0.0704508}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -1.5037318e-13, y: -3.6190577e-14, z: 0.46012408, w: 0.8878986}
+        inSlope: {x: 3.3518896e-14, y: 1.4083546e-14, z: -0.09714729, w: 0.04932757}
+        outSlope: {x: 3.3518896e-14, y: 1.4083546e-14, z: -0.09714729, w: 0.04932757}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg02_L/Knee02_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.14014946, y: 0.029495362, z: -0.5373559, w: 0.83110577}
+        inSlope: {x: 0.24985883, y: -0.031723883, z: -0.22250034, w: -0.105198696}
+        outSlope: {x: 0.24985883, y: -0.031723883, z: -0.22250034, w: -0.105198696}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.106113486, y: 0.023563042, z: -0.5628796, w: 0.81936026}
+        inSlope: {x: 0.5186301, y: -0.105860606, z: -0.33562872, w: -0.16008511}
+        outSlope: {x: 0.5186301, y: -0.105860606, z: -0.33562872, w: -0.16008511}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.08975969, y: 0.019810423, z: -0.57459354, w: 0.8132582}
+        inSlope: {x: 0.4720997, y: -0.11891419, z: -0.35544693, w: -0.19629641}
+        outSlope: {x: 0.4720997, y: -0.11891419, z: -0.35544693, w: -0.19629641}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg02_L/Knee02_L/Foot02_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0000000014206234, y: -3.806548e-10, z: -0.25881907, w: 0.9659258}
+        inSlope: {x: -0.0000000017964275, y: -4.8135124e-10, z: 0, w: 0}
+        outSlope: {x: -0.0000000017964275, y: -4.8135124e-10, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.0000000015892345, y: -4.2583398e-10, z: -0.25881907, w: 0.9659258}
+        inSlope: {x: -0.0000000015620989, y: -4.1856307e-10, z: 0, w: 0}
+        outSlope: {x: -0.0000000015620989, y: -4.1856307e-10, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg02_L/Knee02_L/Foot02_L/Toe02_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.039234057, y: -0.25675815, z: 0.11091279, w: 0.9592884}
+        inSlope: {x: -0.28758094, y: 0.012177201, z: 0.028364297, w: -0.014434732}
+        outSlope: {x: -0.28758094, y: 0.012177201, z: 0.028364297, w: -0.014434732}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.075324655, y: -0.25528806, z: 0.10765136, w: 0.95789635}
+        inSlope: {x: -0.5087925, y: 0.02137365, z: -0.13051921, w: -0.019530077}
+        outSlope: {x: -0.5087925, y: 0.02137365, z: -0.13051921, w: -0.019530077}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.09169483, y: -0.2545934, z: 0.10183229, w: 0.9572902}
+        inSlope: {x: 0.46258736, y: 1.508441, z: 1.1752162, w: 0.17061304}
+        outSlope: {x: 0.46258736, y: 1.508441, z: 1.1752162, w: 0.17061304}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg00_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 7.322762e-14, y: -1.5940655e-14, z: -0.34373555, w: 0.9391183}
+        inSlope: {x: -1.5327363e-14, y: 2.3254775e-15, z: 0.069463834, w: 0.024921888}
+        outSlope: {x: -1.5327363e-14, y: 2.3254775e-15, z: 0.069463834, w: 0.024921888}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 7.152149e-14, y: -1.5694526e-14, z: -0.33599153, w: 0.941865}
+        inSlope: {x: -9.3072265e-14, y: 1.3260283e-14, z: 0.42260596, w: 0.1494812}
+        outSlope: {x: -9.3072265e-14, y: 1.3260283e-14, z: 0.42260596, w: 0.1494812}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 6.786407e-14, y: -1.5219834e-14, z: -0.31934297, w: 0.9476392}
+        inSlope: {x: -1.288504e-13, y: 1.3562951e-14, z: 0.5896489, w: 0.19667226}
+        outSlope: {x: -1.288504e-13, y: 1.3562951e-14, z: 0.5896489, w: 0.19667226}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 6.293147e-14, y: -1.479033e-14, z: -0.29668164, w: 0.9549765}
+        inSlope: {x: 2.885201e-14, y: -3.4958587e-15, z: -0.13156572, w: -0.0450159}
+        outSlope: {x: 2.885201e-14, y: -3.4958587e-15, z: -0.13156572, w: -0.0450159}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg00_R/Knee00_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.009155052, y: 0.0008550099, z: 0.4524093, w: 0.89176303}
+        inSlope: {x: 0.26975968, y: 0.020852245, z: -0.19271475, w: 0.08994043}
+        outSlope: {x: 0.26975968, y: 0.020852245, z: -0.19271475, w: 0.08994043}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.044825774, y: 0.002838419, z: 0.41939408, w: 0.9066925}
+        inSlope: {x: 0.5260783, y: 0.0038238484, z: -0.58150613, w: 0.2419954}
+        outSlope: {x: 0.5260783, y: 0.0038238484, z: -0.58150613, w: 0.2419954}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.062193394, y: 0.0024527183, z: 0.39848223, w: 0.91506165}
+        inSlope: {x: -0.3218236, y: -0.017114012, z: -0.59446067, w: 0.27141514}
+        outSlope: {x: -0.3218236, y: -0.017114012, z: -0.59446067, w: 0.27141514}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg00_R/Knee00_R/Foot00_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000000004133794, y: -0.0000000011076468, z: 0.25881907, w: 0.9659259}
+        inSlope: {x: -0.000000016846114, y: 0.0000000045139017, z: 0, w: 0}
+        outSlope: {x: -0.000000016846114, y: 0.0000000045139017, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.0000000025201938, y: -6.7528383e-10, z: 0.25881907, w: 0.9659259}
+        inSlope: {x: -0.000000015243417, y: 0.0000000040844603, z: 0, w: 0}
+        outSlope: {x: -0.000000015243417, y: 0.0000000040844603, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg00_R/Knee00_R/Foot00_R/Toe00_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.0931508, y: -0.00036580555, z: 0.095085025, w: 0.9911012}
+        inSlope: {x: -0.3129639, y: 0.0012289833, z: 0.059915382, w: 0.020310514}
+        outSlope: {x: -0.3129639, y: 0.0012289833, z: 0.059915382, w: 0.020310514}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.05084067, y: -0.00019965379, z: 0.09589402, w: 0.9940923}
+        inSlope: {x: -0.63672817, y: 0.0025020898, z: -0.056210104, w: 0.037922896}
+        outSlope: {x: -0.63672817, y: 0.0025020898, z: -0.056210104, w: 0.037922896}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.029611524, y: -0.0001161779, z: 0.09287373, w: 0.99523747}
+        inSlope: {x: 0.23329794, y: 1.5595053, z: 0.8310972, w: -0.19966216}
+        outSlope: {x: 0.23329794, y: 1.5595053, z: 0.8310972, w: -0.19966216}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg01_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0, z: -0.32735837, w: 0.9448968}
+        inSlope: {x: 0, y: 0, z: -0.12990297, w: -0.044727627}
+        outSlope: {x: 0, y: 0, z: -0.12990297, w: -0.044727627}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0, y: -0, z: -0.32932803, w: 0.9442156}
+        inSlope: {x: 0, y: 0, z: 0.10681013, w: 0.03695909}
+        outSlope: {x: 0, y: 0, z: 0.10681013, w: 0.03695909}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0, y: -0, z: -0.32343712, w: 0.94624966}
+        inSlope: {x: 0, y: 0, z: -0.2938653, w: -0.10594061}
+        outSlope: {x: 0, y: 0, z: -0.2938653, w: -0.10594061}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg01_R/Knee01_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0929132, y: -0.0066587864, z: 0.47346562, w: 0.8758728}
+        inSlope: {x: 0.31294277, y: 0.011351981, z: 0.07625289, w: -0.011748115}
+        outSlope: {x: 0.31294277, y: 0.011351981, z: 0.07625289, w: -0.011748115}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.050702747, y: -0.0037482833, z: 0.47643545, w: 0.8777383}
+        inSlope: {x: 0.6347015, y: 0.05110903, z: -0.031446695, w: 0.053874902}
+        outSlope: {x: 0.6347015, y: 0.05110903, z: -0.031446695, w: 0.053874902}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.02954415, y: -0.0019990513, z: 0.47410488, w: 0.8799703}
+        inSlope: {x: 0.010619521, y: -0.014944382, z: -0.3154664, w: 0.16693412}
+        outSlope: {x: 0.010619521, y: -0.014944382, z: -0.3154664, w: 0.16693412}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg01_R/Knee01_R/Foot01_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.000000017976195, y: 0.000000007720251, z: 0.25881907, w: 0.9659258}
+        inSlope: {x: 0.000000012918833, y: -0.000000012563045, z: 0, w: 0.00000029194112}
+        outSlope: {x: 0.000000012918833, y: -0.000000012563045, z: 0, w: 0.00000029194112}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.000000016707723, y: 0.000000006505047, z: 0.25881907, w: 0.9659258}
+        inSlope: {x: 0.000000012258909, y: -0.000000011585196, z: 0, w: 0.00000025544847}
+        outSlope: {x: 0.000000012258909, y: -0.000000011585196, z: 0, w: 0.00000025544847}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg01_R/Knee01_R/Foot01_R/Toe01_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.20053585, y: 0.26088554, z: 0.19725664, w: 0.92347926}
+        inSlope: {x: -0.2620341, y: -0.007804766, z: -0.0119050965, w: 0.058784902}
+        outSlope: {x: -0.2620341, y: -0.007804766, z: -0.0119050965, w: 0.058784902}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: 0.16336745, y: 0.2599942, z: 0.19140305, w: 0.93224406}
+        inSlope: {x: -0.5793338, y: -0.01456575, z: -0.12521815, w: 0.13100278}
+        outSlope: {x: -0.5793338, y: -0.01456575, z: -0.12521815, w: 0.13100278}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.1437143, y: 0.25948536, z: 0.18661416, w: 0.9365836}
+        inSlope: {x: 0.24037811, y: 1.4503448, z: 0.23651317, w: -0.58676094}
+        outSlope: {x: 0.24037811, y: 1.4503448, z: 0.23651317, w: -0.58676094}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg02_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -1.476445e-13, y: 3.504755e-14, z: -0.452215, w: 0.891909}
+        inSlope: {x: -4.7608334e-14, y: 2.0138839e-14, z: -0.13795027, w: -0.070265725}
+        outSlope: {x: -4.7608334e-14, y: 2.0138839e-14, z: -0.13795027, w: -0.070265725}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -1.5126375e-13, y: 3.6607463e-14, z: -0.46269724, w: 0.88652337}
+        inSlope: {x: -2.5606541e-14, y: 1.1313959e-14, z: -0.07411589, w: -0.038525}
+        outSlope: {x: -2.5606541e-14, y: 1.1313959e-14, z: -0.07411589, w: -0.038525}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg02_R/Knee02_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.14016744, y: -0.029501848, z: 0.53766316, w: 0.8309038}
+        inSlope: {x: 0.24990265, y: 0.03178812, z: 0.2223099, w: -0.105165616}
+        outSlope: {x: 0.24990265, y: 0.03178812, z: 0.2223099, w: -0.105165616}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.10612543, y: -0.023561738, z: 0.5631611, w: 0.81916535}
+        inSlope: {x: 0.51871634, y: 0.10594895, z: 0.3352353, w: -0.15994832}
+        outSlope: {x: 0.51871634, y: 0.10594895, z: 0.3352353, w: -0.15994832}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.08871113, y: -0.019791692, z: 0.573541, w: 0.81411874}
+        inSlope: {x: 0.09741001, y: 0.010054994, z: -0.1064167, w: 0.08492361}
+        outSlope: {x: 0.09741001, y: 0.010054994, z: -0.1064167, w: 0.08492361}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg02_R/Knee02_R/Foot02_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0000000063047576, y: 0.0000000016893549, z: 0.25881907, w: 0.9659259}
+        inSlope: {x: 0.000000012759117, y: -0.0000000034187957, z: 0, w: 0}
+        outSlope: {x: 0.000000012759117, y: -0.0000000034187957, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.0000000050782343, y: 0.0000000013607089, z: 0.25881907, w: 0.9659259}
+        inSlope: {x: 0.000000011625823, y: -0.00000000311513, z: 0, w: 0}
+        outSlope: {x: 0.000000011625823, y: -0.00000000311513, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg02_R/Knee02_R/Foot02_R/Toe02_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.23891489, y: -0.24521577, z: -0.6830721, w: 0.6451367}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.23891489, y: -0.24521577, z: -0.6830721, w: 0.6451367}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Wing00_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.017441776, y: 0.0006090802, z: 0.03489418, w: 0.9992386}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.017441776, y: 0.0006090802, z: 0.03489418, w: 0.9992386}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Wing00_L/Wing01_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.03700711, y: 0.061628416, z: -0.70441604, w: 0.7061377}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.03700711, y: 0.061628416, z: -0.70441604, w: 0.7061377}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Wing10_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.017441776, y: 0.0006090802, z: 0.03489418, w: 0.9992386}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.017441776, y: 0.0006090802, z: 0.03489418, w: 0.9992386}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Wing10_L/Wing11_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.23891489, y: 0.24521577, z: 0.6830721, w: 0.6451367}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.23891489, y: 0.24521577, z: 0.6830721, w: 0.6451367}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Wing00_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.017441776, y: -0.0006090802, z: -0.03489418, w: 0.9992386}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.017441776, y: -0.0006090802, z: -0.03489418, w: 0.9992386}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Wing00_R/Wing01_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.03700711, y: -0.061628416, z: 0.70441604, w: 0.7061377}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.03700711, y: -0.061628416, z: 0.70441604, w: 0.7061377}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Wing10_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.017441776, y: -0.0006090802, z: -0.03489418, w: 0.9992386}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 0.017441776, y: -0.0006090802, z: -0.03489418, w: 0.9992386}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Wing10_R/Wing11_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.06680855, y: -2.039505e-14, z: 1.9018692e-14, w: 0.99776727}
+        inSlope: {x: 0.25781462, y: -3.0592656e-13, z: 2.8528113e-13, w: 0.017277004}
+        outSlope: {x: 0.25781462, y: -3.0592656e-13, z: 2.8528113e-13, w: 0.017277004}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.046525337, y: 0, z: -0, w: 0.9989171}
+        inSlope: {x: 0.34868056, y: 1.2237042e-12, z: -1.1411226e-12, w: 0.016239896}
+        outSlope: {x: 0.34868056, y: 1.2237042e-12, z: -1.1411226e-12, w: 0.016239896}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.034899496, y: 8.15802e-14, z: -7.6074767e-14, w: 0.99939084}
+        inSlope: {x: -0.19849735, y: 0.5541373, z: -0.49025914, w: -0.028855104}
+        outSlope: {x: -0.19849735, y: 0.5541373, z: -0.49025914, w: -0.028855104}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Abdomen00
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.06680855, y: -2.039505e-14, z: 1.9018692e-14, w: 0.99776727}
+        inSlope: {x: 0.25781462, y: -3.0592656e-13, z: 2.8528113e-13, w: 0.017277004}
+        outSlope: {x: 0.25781462, y: -3.0592656e-13, z: 2.8528113e-13, w: 0.017277004}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666672
+        value: {x: -0.046525337, y: 0, z: -0, w: 0.9989171}
+        inSlope: {x: 0.34868056, y: 1.2237042e-12, z: -1.1411226e-12, w: 0.016239896}
+        outSlope: {x: 0.34868056, y: 1.2237042e-12, z: -1.1411226e-12, w: 0.016239896}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0.034899496, y: 8.15802e-14, z: -7.6074767e-14, w: 0.99939084}
+        inSlope: {x: -0.58966434, y: 0.5667809, z: -0.4755855, w: -0.057443798}
+        outSlope: {x: -0.58966434, y: 0.5667809, z: -0.4755855, w: -0.057443798}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Abdomen00/Abdomen01
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0, y: 0.0025600002, z: 0.0002}
+        inSlope: {x: -0, y: 0.00000006132362, z: 2.7879513e-18}
+        outSlope: {x: -0, y: 0.000000039948777, z: -5.7369576e-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0333333
+        value: {x: -0, y: 0.0025733332, z: 0.00013333341}
+        inSlope: {x: -0, y: 0.000000039948777, z: -0.00000000323462}
+        outSlope: {x: -0, y: 0.000000039948777, z: 0.000000006743845}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0, y: 0.0025866665, z: 0.00006666683}
+        inSlope: {x: -0, y: 0.000000039948777, z: -0.00000001720447}
+        outSlope: {x: -0, y: 0.00000003994863, z: 0.000000052240473}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: -0, y: 0.0025999998, z: 0}
+        inSlope: {x: -0, y: 0.00000003994863, z: 0.000000044091426}
+        outSlope: {x: -0, y: 3.4694503e-17, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg00_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg01_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg02_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg00_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg01_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Thorax/Leg02_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: -0.89062476, y: -0.89062476, z: 0}
+        outSlope: {x: -0.89062476, y: -0.89062476, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333342
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.100000024
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Insect_Butterfly_Origin/Root/Abdomen00/Abdomen01/Trachea
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -5.8377696e-17
+        inSlope: 7.7821337e-16
+        outSlope: 7.7821337e-16
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666672
+        value: -2.0816681e-19
+        inSlope: 9.694207e-16
+        outSlope: 9.694207e-16
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.100000024
+        value: 6.441982e-17
+        inSlope: 0.00042736676
+        outSlope: 0.00042736676
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: MotionT.x
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.0025522287
+        inSlope: 0.00027641546
+        outSlope: 0.00027641546
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.100000024
+        value: 0.0025945315
+        inSlope: 0.0002972168
+        outSlope: 0.0002972168
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: MotionT.y
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.000004342699
+        inSlope: -0.0010041537
+        outSlope: -0.0010041537
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.03333342
+        value: -0.00007128646
+        inSlope: -0.0020066486
+        outSlope: -0.0020066486
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666672
+        value: -0.00013811939
+        inSlope: -0.0020033303
+        outSlope: -0.0020033303
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.100000024
+        value: -0.00020484168
+        inSlope: -0.00097093254
+        outSlope: -0.00097093254
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: MotionT.z
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.104528464
+        inSlope: 0.42481983
+        outSlope: 0.42481983
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.03333342
+        value: -0.08135871
+        inSlope: 0.6957531
+        outSlope: 0.6957531
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666672
+        value: -0.058144882
+        inSlope: 0.6968888
+        outSlope: 0.6968888
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.100000024
+        value: -0.034899496
+        inSlope: 0.0037504435
+        outSlope: 0.0037504435
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: MotionQ.x
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 6.661417e-14
+        inSlope: -8.9118887e-13
+        outSlope: -8.9118887e-13
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666672
+        value: -0
+        inSlope: -1.1101544e-12
+        outSlope: -1.1101544e-12
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.100000024
+        value: -7.401022e-14
+        inSlope: -0.4753312
+        outSlope: -0.4753312
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: MotionQ.y
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.2664017e-13
+        inSlope: -1.6942389e-12
+        outSlope: -1.6942389e-12
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.06666672
+        value: -0
+        inSlope: -2.1105142e-12
+        outSlope: -2.1105142e-12
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.100000024
+        value: -1.4070082e-13
+        inSlope: -0.8125463
+        outSlope: -0.8125463
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: MotionQ.z
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.9945219
+        inSlope: 0.0407695
+        outSlope: 0.0407695
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.100000024
+        value: 0.9991211
+        inSlope: -0.025366524
+        outSlope: -0.025366524
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: MotionQ.w
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.100000024
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 1
+  m_Events: []

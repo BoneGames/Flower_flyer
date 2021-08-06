@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3645057106669446209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1833767076765734274}
+  - component: {fileID: 6315454152442679054}
+  m_Layer: 9
+  m_Name: bender
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1833767076765734274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3645057106669446209}
+  m_LocalRotation: {x: 0.0074176053, y: -0, z: -0, w: 0.9999725}
+  m_LocalPosition: {x: -3660, y: 80000, z: -33478}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6315454152442679054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3645057106669446209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f8f4845dc1acb44a9591e0930e17ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editFlowers: 0
+  windOn: 0
+  normaliseDir: 1
+  tester: {fileID: 0}
+  centreTile: {fileID: 0}
+  edgeTiles:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  aoe: {x: 75000, y: 0}
+  rate: 10
+  movingQuantity: 30
+  newStalkGroupRefreshRate: 10
+  width: 512
+  height: 512
+  x: 0
+  y: 0
+  scale: 1
+  offset_NS: 0
+  offset_EW: 0
+  forwardMulti: 35000
+  bendScale: 0.75
+  gizmo: 0
+  gizmoSize: 100

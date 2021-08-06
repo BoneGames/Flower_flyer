@@ -20,6 +20,7 @@ TagManager:
   - centre
   - melody
   - arp2
+  - bunch
   layers:
   - Default
   - TransparentFX

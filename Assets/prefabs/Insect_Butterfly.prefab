@@ -199,7 +199,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 1b823d20c14db534ea8868aa4cfd36f9, type: 2}
-  m_CullingMode: 0
+  m_CullingMode: 2
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa937818f7e375a499dd09212a4eb69a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  area: 500000
+  area: 50
   timeRange: {x: 2, y: 6}
   turnSpeed: 5
   maxStartDelay: 0

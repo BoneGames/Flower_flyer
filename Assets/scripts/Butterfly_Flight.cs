@@ -14,10 +14,10 @@ public class Butterfly_Flight : MonoBehaviour
     void Start()
     {
         string tileType = GetTileType();
-        if(tileType == "perimeter")
-        {
-            Destroy(this.gameObject);
-        }
+        //if(tileType == "perimeter")
+        //{
+        //    Destroy(this.gameObject);
+        //}
         basePos = transform.parent.position;
         Invoke("AnimStart", Random.Range(0, maxStartDelay));
     }

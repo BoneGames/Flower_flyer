@@ -51,21 +51,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stationary: 0
   boostControl:
-    boost:
-      isMaxBoost: 0
-      boostSpeed: 0
-      coolOff: 0
-      ready:
-        duration: 0
-        speedCurve:
-          serializedVersion: 2
-          m_Curve: []
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        effects: []
+    boostActive: 0
+    normal:
+      thisState: 0
+      speed: 0
       up:
+        thisPart: 0
         duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
         speedCurve:
           serializedVersion: 2
           m_Curve: []
@@ -74,7 +68,10 @@ MonoBehaviour:
           m_RotationOrder: 4
         effects: []
       mid:
+        thisPart: 0
         duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
         speedCurve:
           serializedVersion: 2
           m_Curve: []
@@ -83,7 +80,10 @@ MonoBehaviour:
           m_RotationOrder: 4
         effects: []
       down:
+        thisPart: 0
         duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
         speedCurve:
           serializedVersion: 2
           m_Curve: []
@@ -91,8 +91,77 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         effects: []
-      burnout:
+    boost:
+      thisState: 0
+      speed: 0
+      up:
+        thisPart: 0
         duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
+        speedCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        effects: []
+      mid:
+        thisPart: 0
+        duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
+        speedCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        effects: []
+      down:
+        thisPart: 0
+        duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
+        speedCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        effects: []
+    burnout:
+      thisState: 0
+      speed: 0
+      up:
+        thisPart: 0
+        duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
+        speedCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        effects: []
+      mid:
+        thisPart: 0
+        duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
+        speedCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        effects: []
+      down:
+        thisPart: 0
+        duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
         speedCurve:
           serializedVersion: 2
           m_Curve: []
@@ -101,20 +170,13 @@ MonoBehaviour:
           m_RotationOrder: 4
         effects: []
     maxBoost:
-      isMaxBoost: 0
-      boostSpeed: 0
-      coolOff: 0
-      ready:
-        duration: 0
-        speedCurve:
-          serializedVersion: 2
-          m_Curve: []
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        effects: []
+      thisState: 0
+      speed: 0
       up:
+        thisPart: 0
         duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
         speedCurve:
           serializedVersion: 2
           m_Curve: []
@@ -123,7 +185,10 @@ MonoBehaviour:
           m_RotationOrder: 4
         effects: []
       mid:
+        thisPart: 0
         duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
         speedCurve:
           serializedVersion: 2
           m_Curve: []
@@ -132,16 +197,10 @@ MonoBehaviour:
           m_RotationOrder: 4
         effects: []
       down:
+        thisPart: 0
         duration: 0
-        speedCurve:
-          serializedVersion: 2
-          m_Curve: []
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        effects: []
-      burnout:
-        duration: 0
+        uninteruptable: 0
+        click2Interupt: 0
         speedCurve:
           serializedVersion: 2
           m_Curve: []
@@ -150,24 +209,8 @@ MonoBehaviour:
           m_RotationOrder: 4
         effects: []
     lerpSpeed: 0
-    baseSpeed: 0
-    lastBoostEnd: 0
     _bs: 0
     _ts: 0
-    bloomVals: {x: 0, y: 0}
-    bloomUp:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    bloomDown:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    bloomChangeTime: 0
   currSpeed: 0
   canVertMove: 1
   maxPitch: 45
@@ -257,7 +300,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 1.000001
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

@@ -15,7 +15,7 @@ MonoBehaviour:
   on: 1
   effectSettings:
   - paramName: up
-    minMax: {x: 0, y: 0.5}
+    minMax: {x: 0, y: 0.3}
     curve:
       serializedVersion: 2
       m_Curve:
@@ -40,6 +40,6 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-  debugVal: 0.9998042
+  debugVal: 0.4984235
   aS: {fileID: 0}
   audioSourceTag: arp2

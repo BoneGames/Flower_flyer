@@ -15,7 +15,7 @@ MonoBehaviour:
   on: 0
   effectSettings:
   - paramName: down
-    minMax: {x: 0.5, y: 0}
+    minMax: {x: 0.3, y: 0}
     curve:
       serializedVersion: 2
       m_Curve:

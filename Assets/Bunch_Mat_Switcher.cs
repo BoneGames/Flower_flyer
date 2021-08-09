@@ -2,14 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using NaughtyAttributes;
 
 public class Bunch_Mat_Switcher : MonoBehaviour
 {
-    //public struct MatType
-    //{
-    //    public bool isTransMat;
-    //    public Material mat;
-    //}
+    public Transform tracker;
 
     [System.Serializable]
     public class MatPair
@@ -17,19 +14,28 @@ public class Bunch_Mat_Switcher : MonoBehaviour
         public Material[] mats = new Material[2];
     }
     public MatPair[] allMats;
-    public Dictionary<string, Material> matDuosDict = new Dictionary<string, Material>();
+    public Dictionary<string, Material> matDuosDict;
 
     public bool isTrans;
     Renderer[] allRends;
     private void Start()
     {
+        //isTrans = true;
+    }
+    [Button]
+    public void PopulateDict()
+    {
+        matDuosDict = new Dictionary<string, Material>();
         allRends = GetComponentsInChildren<Renderer>();
         foreach (var item in allMats)
         {
-            matDuosDict.Add(item.mats[0].name, item.mats[1]);
-            matDuosDict.Add(item.mats[1].name, item.mats[0]);
+            string key1 = item.mats[0].name;// + " (Instance)";
+            string key2 = item.mats[1].name;// + " (Instance)";
+            matDuosDict.Add(key1, item.mats[1]);
+            matDuosDict.Add(key2, item.mats[0]);
+            //Debug.Log(key1);
+            //Debug.Log(key2);
         }
-        Debug.Log("Dict Length: " + matDuosDict.Keys.Count);
     }
 
     public void SwitchMats(bool toTrans)
@@ -37,13 +43,13 @@ public class Bunch_Mat_Switcher : MonoBehaviour
 
         if (isTrans == toTrans)
             return;
-        Debug.Log("Switching Mats to: " + (toTrans ? "trans" : "opaque"));
+        Debug.LogWarning("Switching Mats to: " + (toTrans ? "trans" : "opaque"));
         foreach (Renderer r in allRends)
         {
-            Material curr = r.material;
+            Material curr = r.sharedMaterial;
             try
             {
-            r.material = matDuosDict[curr.name.Replace(" (Instance)", "")];
+                r.sharedMaterial = matDuosDict[curr.name];
 
             }
             catch
@@ -51,5 +57,6 @@ public class Bunch_Mat_Switcher : MonoBehaviour
                 Debug.Log(curr.name + " not in dict");
             }
         }
+        isTrans = toTrans;
     }
 }

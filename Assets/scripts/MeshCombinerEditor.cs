@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEditor;
 using UnityEngine;
-
+#if UNITY_EDITOR
 [CustomEditor (typeof(MeshCombiner))]
 public class MeshCombinerEditor : Editor
 {
@@ -14,3 +14,4 @@ public class MeshCombinerEditor : Editor
         }
     }
 }
+#endif

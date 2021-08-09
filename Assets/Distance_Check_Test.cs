@@ -9,7 +9,6 @@ public class Distance_Check_Test : MonoBehaviour
     public bool isEnabled;
     Bunch_Mat_Switcher[] allBunches;
     public int distance;
-    public float currDist;
 
     public List<Bunch_Mat_Switcher> inRangeBunches = new List<Bunch_Mat_Switcher>();
 
@@ -18,10 +17,44 @@ public class Distance_Check_Test : MonoBehaviour
         GetAllBunches();
     }
     [Button]
+    public void RefreshAllBunches()
+    {
+        foreach (var item in allBunches)
+        {
+            item.PopulateDict();
+        }
+    }
+
+    [Button]
+    public void CheckDicts()
+    {
+        foreach (var item in allBunches)
+        {
+            Debug.Log(item.matDuosDict.Keys.Count);
+        }
+    }
+    [Button]
+    public void AllTrans()
+    {
+        foreach (var item in allBunches)
+        {
+            item.SwitchMats(true);
+        }
+    }
+    [Button]
+    public void AllOpaque()
+    {
+        foreach (var item in allBunches)
+        {
+            item.SwitchMats(false);
+        }
+    }
+
+    [Button]
     public void GetAllBunches()
     {
-        allBunches = GameObject.FindGameObjectsWithTag("bunch").Select(o => o.GetComponent<Bunch_Mat_Switcher>()).ToArray();
-        Debug.Log(allBunches.Length);
+        allBunches = GameObject.FindGameObjectsWithTag("bunch").Where(o => o.GetComponent<Bunch_Mat_Switcher>() != null).Select(o => o.GetComponent<Bunch_Mat_Switcher>()).ToArray();
+        Debug.Log("Bunch Swicther Count: " + allBunches.Length);
     }
 
     private void Update()
@@ -29,30 +62,10 @@ public class Distance_Check_Test : MonoBehaviour
         if (!isEnabled)
             return;
 
-        List<Bunch_Mat_Switcher> newInRangeBunches = new List<Bunch_Mat_Switcher>();
-
         foreach (var item in allBunches)
         {
-            currDist = Vector3.Distance(transform.position, item.transform.position);
-
-            if (currDist < distance)
-            {
-                newInRangeBunches.Add(item);
-            }
-
+            float currDist = Vector3.Distance(transform.position, item.tracker.position);
+            item.SwitchMats(currDist > distance);
         }
-
-        foreach (var item in newInRangeBunches)
-        {
-            item.SwitchMats(false);
-        }
-
-        var itemsOnlyInFirst = inRangeBunches.Except(newInRangeBunches).ToArray();
-        foreach (var item in itemsOnlyInFirst)
-        {
-            item.SwitchMats(true);
-        }
-
-        inRangeBunches = newInRangeBunches;
     }
 }

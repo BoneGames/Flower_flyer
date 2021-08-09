@@ -22,9 +22,22 @@ public class UI : MonoBehaviour
         transitionState.text = state;
     }
 
-    public void ShowSoundZones(string[] sounds)
+    //public void ShowSoundZones(string[] sounds)
+    //{
+    //    soundZones.text = string.Join("\n", sounds);
+    //}
+    public List<string> soundZonesList = new List<string>();
+    public void ShowSoundZones(string note, bool show)
     {
-        soundZones.text = string.Join("\n", sounds);
+        if(show)
+        {
+            soundZonesList.Add(note);
+        }
+        else
+        {
+            soundZonesList.Remove(note);
+        }
+        soundZones.text = string.Join("\n", soundZonesList);
     }
 
     public void SetBoostStateLabel(string state)

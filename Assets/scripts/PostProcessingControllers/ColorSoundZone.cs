@@ -28,8 +28,8 @@ public class ColorSoundZone : MonoBehaviour
     {
         aS = GetComponent<AudioSource>();
         audioTrack = aS.clip.name;
-        mat = Application.isPlaying ? GetComponent<Renderer>().material : GetComponent<Renderer>().sharedMaterial;
-        col = GetComponent<SphereCollider>();
+        //mat = Application.isPlaying ? GetComponent<Renderer>().material : GetComponent<Renderer>().sharedMaterial;
+        //col = GetComponent<SphereCollider>();
 
         //FindObjectOfType<Volume>().profile.TryGet(typeof(ColorAdjustments), out colorChange);
         ui = FindObjectOfType<UI>();
@@ -39,7 +39,7 @@ public class ColorSoundZone : MonoBehaviour
     public void SetComponents()
     {
         float maxDist = aS.maxDistance;
-        mat.color = zoneCol;
+        //mat.color = zoneCol;
 
         transform.localScale = Vector3.one;
         transform.localScale = new Vector3((maxDist*2) / transform.lossyScale.x, (maxDist * 2) / transform.lossyScale.y, (maxDist * 2) / transform.lossyScale.z);
@@ -58,29 +58,31 @@ public class ColorSoundZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Entering Zone");
-            CheckZone(other.transform.position);
+            //Debug.Log("Entering Zone");
+            //CheckZone(other.transform.position);
+            ui.ShowSoundZones(audioTrack, true);
         }
     }
 
-    void CheckZone(Vector3 playerPos)
-    {
-        ColorSoundZone[] inZones = FindObjectsOfType<ColorSoundZone>().Where(o => o.col.ClosestPoint(playerPos) == playerPos).ToArray();
-        //foreach (var iZ in inZones)
-        //{
-        //    if (sZ.col.ClosestPoint(playerPos) == playerPos)
-        //        inZones.Add(sZ);
-        //}
+    //void CheckZone(Vector3 playerPos)
+    //{
+    //    //ColorSoundZone[] inZones = FindObjectsOfType<ColorSoundZone>().Where(o => o.col.ClosestPoint(playerPos) == playerPos).ToArray();
+    //    //foreach (var iZ in inZones)
+    //    //{
+    //    //    if (sZ.col.ClosestPoint(playerPos) == playerPos)
+    //    //        inZones.Add(sZ);
+    //    //}
 
-        ui.ShowSoundZones(inZones.Select(o => o.audioTrack).ToArray());
-    }
+    //    ui.ShowSoundZones(inZones.Select(o => o.audioTrack).ToArray());
+    //}
 
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Exiting Zone");
-            CheckZone(other.transform.position);
+            // Debug.Log("Exiting Zone");
+            //CheckZone(other.transform.position);
+            ui.ShowSoundZones(audioTrack, false);
         }
     }
 }

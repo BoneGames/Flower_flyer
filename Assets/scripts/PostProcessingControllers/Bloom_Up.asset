@@ -15,7 +15,7 @@ MonoBehaviour:
   on: 1
   effectSettings:
   - paramName: intensity
-    minMax: {x: 0, y: 4}
+    minMax: {x: 0, y: 2}
     curve:
       serializedVersion: 2
       m_Curve:
@@ -40,5 +40,5 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
+  debugVal: 3.984431
   effect: {fileID: 0}
-  showVal: 2

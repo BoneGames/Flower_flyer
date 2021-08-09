@@ -101,12 +101,12 @@ public class flight_controller_V2 : MonoBehaviour
     {
         if (other.transform.CompareTag("vertStopN"))
         {
-            Debug.Log("vstop Top Barrier");
+            //Debug.Log("vstop Top Barrier");
             StartCoroutine(VerticalStop(true));
         }
         else if (other.transform.CompareTag("vertStopS"))
         {
-            Debug.Log("vstop Bottom Barrier");
+            //Debug.Log("vstop Bottom Barrier");
             StartCoroutine(VerticalStop(false));
         }
     }

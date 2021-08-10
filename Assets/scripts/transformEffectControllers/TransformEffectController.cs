@@ -17,8 +17,11 @@ public class TransformEffectController : EffectController
         _transform = Camera.main.transform;
     }
 
-    public override void MinMax(bool min)
+    public override void MinMax()
     {
-        base.MinMax(true);
+        foreach (var item in effectSettings)
+        {
+            ControlEffect(item.paramName, item.minMax.x);
+        }
     }
 }

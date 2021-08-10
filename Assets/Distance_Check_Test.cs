@@ -14,7 +14,8 @@ public class Distance_Check_Test : MonoBehaviour
 
     private void Start()
     {
-        GetAllBunches();
+        if(isEnabled)
+            GetAllBunches();
     }
     [Button]
     public void RefreshAllBunches()
@@ -61,7 +62,7 @@ public class Distance_Check_Test : MonoBehaviour
     {
         if (!isEnabled)
             return;
-
+        Debug.LogWarning("Distance Checking in update!!");
         foreach (var item in allBunches)
         {
             float currDist = Vector3.Distance(transform.position, item.tracker.position);

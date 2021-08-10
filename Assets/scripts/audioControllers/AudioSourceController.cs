@@ -28,8 +28,8 @@ public class AudioSourceController : EffectController
         aS = GameObject.FindWithTag(audioSourceTag).GetComponent<AudioSource>();
     }
 
-    public override void MinMax(bool min)
-    {
-        base.MinMax(min);
-    }
+    //public override void MinMax(bool min)
+    //{
+    //    base.MinMax(min);
+    //}
 }

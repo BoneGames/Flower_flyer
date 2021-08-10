@@ -17,8 +17,8 @@ public class SoundEffectController : EffectController
         //throw new System.NotImplementedException();
     }
 
-    public override void MinMax(bool min)
-    {
-        base.MinMax(min);
-    }
+    //public override void MinMax(bool min)
+    //{
+    //    base.MinMax(min);
+    //}
 }

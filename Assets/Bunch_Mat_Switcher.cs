@@ -36,6 +36,7 @@ public class Bunch_Mat_Switcher : MonoBehaviour
             //Debug.Log(key1);
             //Debug.Log(key2);
         }
+        isTrans = allRends[0].sharedMaterial.name.Contains("trans");
     }
 
     public void SwitchMats(bool toTrans)
@@ -50,7 +51,7 @@ public class Bunch_Mat_Switcher : MonoBehaviour
             try
             {
                 r.sharedMaterial = matDuosDict[curr.name];
-
+                Debug.Log("Mat Switched");
             }
             catch
             {

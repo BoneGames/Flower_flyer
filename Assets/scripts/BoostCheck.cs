@@ -36,23 +36,24 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 {
                     foreach (var field in effect.effectSettings)
                     {
+                        if (!effect.on)
+                            continue;
                         // get the value required for the field
                         float curveMulti = field.curve.Evaluate(_timer);
                         float valRange = Mathf.Abs(field.minMax.x - field.minMax.y);
                         float value = valRange * curveMulti + (field.minMax.x > field.minMax.y ? field.minMax.y : field.minMax.x);
 
-                        if (effect.on)
-                            effect.ControlEffect(field.paramName, value);
+                        effect.ControlEffect(field.paramName, value);
                     }
                 }
             }
 
-            public void MinMax(bool min)
+            public void CompleteCurve()
             {
                 foreach (var effect in effects)
                 {
                     if (effect.on)
-                        effect.MinMax(min);
+                        effect.MinMax();
                 }
             }
         }
@@ -194,7 +195,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 if (sEC.duration == 0)
                     break;
 
-                TryExitStage(1 - _timer, sEC.uninteruptable, sEC.click2Interupt, nextState);
+                TryExitStage(1 - _timer, sEC, nextState);
                 lerpSpeed = SetBoostSpeed(_boost, _timer);
                 SetEffectVals(_boost, _timer);
                 _timer += Time.deltaTime / sEC.duration;
@@ -204,7 +205,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             // reset all max values
             lerpSpeed = _boost.speed;
             // effects
-            sEC.MinMax(false);
+            sEC.CompleteCurve();
 
             // ### MID BOOST PART ###
 
@@ -222,13 +223,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     break;
                 }
 
-                TryExitStage(1 - _timer, sEC.uninteruptable, sEC.click2Interupt, nextState);
+                TryExitStage(1 - _timer, sEC, nextState);
                 SetEffectVals(_boost, _timer);
                 _timer += Time.deltaTime / sEC.duration;
                 yield return null;
             }
-            sEC.MinMax(false);
-            TryExitStage(1 - _timer, sEC.uninteruptable, sEC.click2Interupt, BoostState.None);
+            sEC.CompleteCurve();
+            TryExitStage(1 - _timer, sEC, BoostState.None);
         }
        
         public IEnumerator BoostDown(float _timer)
@@ -242,7 +243,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 if (sEC.duration == 0)
                     break;
 
-                TryExitStage(1 - _timer, sEC.uninteruptable, sEC.click2Interupt, BoostState.MaxBoost);
+                TryExitStage(1 - _timer, sEC, BoostState.MaxBoost);
                 lerpSpeed = SetBoostSpeed(_boost, _timer);
                 SetEffectVals(_boost, _timer);
                 _timer += Time.deltaTime / sEC.duration;
@@ -253,7 +254,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             lerpSpeed = normal.speed;
 
             if (BoostState_ != BoostState.Base)
-                sEC.MinMax(true);
+                sEC.CompleteCurve();
 
             // EXIT STUFF
             BoostCycle(BoostState.Base);
@@ -311,15 +312,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
         #endregion
 
         #region BOOST_SETTING_LOGIC
-        void TryExitStage(float _timer, bool uninteruptable, bool click2Interupt, BoostState nextBoost)
+        void TryExitStage(float _timer, SpeedEffectCurve sEC, BoostState nextBoost)
         {
-            if (!CanExit(_timer, uninteruptable, click2Interupt))
+            if (!CanExit(_timer, sEC.uninteruptable, sEC.click2Interupt))
                 return;
 
             if (BoostState_ == BoostState.Boost && BoostPart_ == BoostPart.Mid)
-            {
                 nextBoost = _timer <= 0 ? BoostState.Burnout : BoostState.None;
-            }
+
+            sEC.CompleteCurve();
 
             BoostCycle(nextBoost, _timer);
         }

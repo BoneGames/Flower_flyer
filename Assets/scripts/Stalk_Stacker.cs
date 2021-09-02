@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+//using NaughtyAttributes;
 
 public class Stalk_Stacker : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class Stalk_Stacker : MonoBehaviour
     public string pivotName = "pivot_";
 
     // Start is called before the first frame update
-    [Button]
+    //[Button]
     public void Build()
     {
         // create base transform object

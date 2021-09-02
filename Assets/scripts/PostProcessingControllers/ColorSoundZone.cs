@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
-using NaughtyAttributes;
+//using NaughtyAttributes;
 using UnityEngine.Rendering;
 
 [RequireComponent(typeof(AudioSource), typeof(SphereCollider))]
@@ -21,9 +21,10 @@ public class ColorSoundZone : MonoBehaviour
     {
         GetComponents();
         SetComponents();
+        aS.enabled = false;
     }
 
-    [Button]
+    //[Button]
     public void GetComponents()
     {
         aS = GetComponent<AudioSource>();
@@ -35,7 +36,7 @@ public class ColorSoundZone : MonoBehaviour
         ui = FindObjectOfType<UI>();
     }
 
-    [Button]
+    //[Button]
     public void SetComponents()
     {
         float maxDist = aS.maxDistance;
@@ -60,7 +61,8 @@ public class ColorSoundZone : MonoBehaviour
         {
             //Debug.Log("Entering Zone");
             //CheckZone(other.transform.position);
-            ui.ShowSoundZones(audioTrack, true);
+            //ui.ShowSoundZones(audioTrack, true);
+            aS.enabled = true;
         }
     }
 
@@ -82,7 +84,8 @@ public class ColorSoundZone : MonoBehaviour
         {
             // Debug.Log("Exiting Zone");
             //CheckZone(other.transform.position);
-            ui.ShowSoundZones(audioTrack, false);
+            //ui.ShowSoundZones(audioTrack, false);
+            aS.enabled = false;
         }
     }
 }

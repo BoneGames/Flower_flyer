@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 [RequireComponent (typeof(MeshFilter))]
@@ -48,4 +49,19 @@ public class MeshCombiner : MonoBehaviour
             transform.GetChild(i).gameObject.SetActive(false);
         }
     }
+
+    //public void SaveMesh()
+    //{
+    //    Mesh m = GetComponent<MeshFilter>().sharedMesh;
+    //    if (!m)
+    //    {
+    //        Debug.Log("no mesh to save");
+    //        return;
+    //    }
+
+    //    AssetDatabase.CreateAsset(m, "Assets/Saved_Meshes/" + transform.name);
+
+    //    //// Print the path of the created asset
+    //    //Debug.Log(AssetDatabase.GetAssetPath(material));
+    //}
 }

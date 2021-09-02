@@ -15,7 +15,7 @@ MonoBehaviour:
   on: 1
   effectSettings:
   - paramName: focusDistance
-    minMax: {x: 12, y: 6}
+    minMax: {x: 10, y: 6}
     curve:
       serializedVersion: 2
       m_Curve:
@@ -67,5 +67,5 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+  debugVal: 6
   effect: {fileID: 0}
-  showVal: 6.029656

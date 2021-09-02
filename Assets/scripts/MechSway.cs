@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+//using NaughtyAttributes;
 using System;
 
 public class MechSway : MonoBehaviour
@@ -122,7 +122,7 @@ public class MechSway : MonoBehaviour
         MutantRotateMirror();
     }
 
-    [Button]
+    //[Button]
     public void GetRotateTransforms()
     {
         pivots.Clear();

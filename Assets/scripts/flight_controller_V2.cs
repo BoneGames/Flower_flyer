@@ -1,53 +1,47 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
-//using UnityEngine.Rendering.PostProcessing;
-using UnityEngine.Rendering.Universal;
-using UnityEngine.Rendering;
+//using NaughtyAttributes;
 
 public class flight_controller_V2 : MonoBehaviour
 {
+    public bool showUI;
+    public bool spaceToStop;
     public bool stationary = false;
     public UnityStandardAssets.Characters.FirstPerson.BoostCheck boostControl;
-    //[BoxGroup("Boost Values")] public float lastBoostStart = -10;
-    //[BoxGroup("Boost Values")] public float lastBoostEnd = 0;
-    //[BoxGroup("Boost Values")] public float boostTime;
-    //[BoxGroup("Boost Values")] public float boostCoolOff;
-    //[BoxGroup("Boost Values")] public AnimationCurve IncreaseCurve;
-    //[BoxGroup("Boost Values")] public AnimationCurve DecreaseCurve;
-    //[HideInInspector] public UI ui;
-    //[BoxGroup("Boost Values")] public float transitionTime;
 
     Rigidbody rigid;
-    //public PostProcessVolume pPV;
-    
 
-    [BoxGroup("Flight Values")] public float currSpeed;
-    //[BoxGroup("Flight Values")] public bool isBoosting;
-    //[BoxGroup("Flight Values")] public Vector2 speeds;
-    [BoxGroup("Flight Values")] public bool canVertMove;
-    [BoxGroup("Flight Values")] public float maxPitch;
-    [BoxGroup("Flight Values")] public float maxRoll;
-    [BoxGroup("Flight Values")] public float angularVelocity;
-    [BoxGroup("Flight Values")] public float targetRoll;
+    //[BoxGroup("Flight Values")] 
+    public float currSpeed;
+    //[BoxGroup("Flight Values")] 
+    public bool canVertMove;
+    //[BoxGroup("Flight Values")] 
+    public float maxPitch;
+    //[BoxGroup("Flight Values")] 
+    public float maxRoll;
+    //[BoxGroup("Flight Values")] 
+    public float angularVelocity;
+    //[BoxGroup("Flight Values")] 
+    public float targetRoll;
     [Range(0f, 0.05f)]
-    [BoxGroup("Flight Values")]
+    //[BoxGroup("Flight Values")]
     public float pitchRollSpeed;
-    [BoxGroup("Flight Values")] public float turnLRSpeed;
-    [BoxGroup("Flight Values")] public AnimationCurve rollCurve;
+    //[BoxGroup("Flight Values")] 
+    public float turnLRSpeed;
+    //[BoxGroup("Flight Values")] 
+    public AnimationCurve rollCurve;
 
     public Coroutine boost;
 
     private void Awake()
     {
         rigid = GetComponent<Rigidbody>();
-        
+
     }
     void Start()
     {
         SetCursor();
-        boostControl.OnStart(this, FindObjectOfType<UI>());
+        boostControl.OnStart(this, showUI ? FindObjectOfType<UI>(): null);
     }
 
     Vector2 GetMouseLook()
@@ -63,17 +57,16 @@ public class flight_controller_V2 : MonoBehaviour
 
     private void Update()
     {
-         if (Input.GetKeyDown(KeyCode.Space))
+         if (Input.GetKeyDown(KeyCode.Space) && spaceToStop)
             stationary = !stationary;
     }
     void FixedUpdate()
     {
-        if (stationary)
+        if (stationary && spaceToStop)
         {
             rigid.velocity = Vector3.zero;
             return;
         }
-
 
         Vector3 forwardDir = canVertMove ? transform.forward : new Vector3(transform.forward.x, 0, transform.forward.z);
         currSpeed = boostControl.lerpSpeed;
@@ -132,21 +125,4 @@ public class flight_controller_V2 : MonoBehaviour
         //Debug.LogError("end y freeze. top: " + top);
         canVertMove = true;
     }
-    //private float BoostCheck()
-    //{
-    //    bool wasBoosting = isBoosting;
-
-    //    bool canboost = boostControl.CanBoost(wasBoosting);
-
-    //    bool canMAXboost = false;
-
-    //    if (canboost)
-    //        canMAXboost = boostControl.CanMAXboost();
-
-    //    isBoosting = Input.GetMouseButton(0) && canboost;
-
-    //    boostControl.SetBoostTimes(!isBoosting, !wasBoosting);
-
-    //    currSpeed = boostControl.SetSpeed(speeds.x, speeds.y, !isBoosting, !wasBoosting, this);
-    //}
 }

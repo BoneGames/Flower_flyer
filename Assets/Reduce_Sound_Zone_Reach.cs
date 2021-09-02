@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+//using NaughtyAttributes;
 
 public class Reduce_Sound_Zone_Reach : MonoBehaviour
 {
     public float division;
-    [Button]
+    //[Button]
     public void DivideReach()
     {
         AudioSource[] allSources = Resources.FindObjectsOfTypeAll(typeof(AudioSource)) as AudioSource[];

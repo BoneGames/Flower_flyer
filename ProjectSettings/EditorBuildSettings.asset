@@ -5,10 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Scenes/SampleScene_tester.unity
-    guid: 22e7f7cb9e622cc4e8f8e64e3e2f2569
+    path: Assets/Scenes/Final/1_Image.unity
+    guid: 07194cf7208e2f24f8fe7a6c6b7f122e
+  - enabled: 0
+    path: Assets/Scenes/Final/2_Instruction.unity
+    guid: 097e8c87b91f019459b56d09896a8ebf
+  - enabled: 0
+    path: Assets/Scenes/Final/3_Game.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Butterfly_Project/Solo_Butterfly.unity
+    guid: d65025ec70f1c5040b7eb13333736237
   m_configObjects: {}

@@ -31,8 +31,6 @@ public class PortalViewDetect : MonoBehaviour
         if (!tM.isRendered)
             return;
 
-     
-
         visibleTags.Clear();
         lookDirs.Clear();
 

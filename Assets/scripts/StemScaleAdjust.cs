@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+//using NaughtyAttributes;
 
 public class StemScaleAdjust : MonoBehaviour
 {
@@ -44,7 +44,7 @@ public class StemScaleAdjust : MonoBehaviour
         }
     }
 
-    [Button]
+    //[Button]
     public void Resize()
     {
         foreach (var item in sway.pivots)
@@ -59,7 +59,7 @@ public class StemScaleAdjust : MonoBehaviour
         }
     }
     public int sectionOperateIndex;
-    [Button]
+    //[Button]
     public void AddSection()
     {
         for (int i = 0; i < sectionChange; i++)
@@ -100,7 +100,7 @@ public class StemScaleAdjust : MonoBehaviour
         }
         RenameSections();
     }
-    [Button]
+    //[Button]
     public void RemoveSection()
     {
         for (int i = 0; i < sectionChange; i++)
@@ -132,7 +132,7 @@ public class StemScaleAdjust : MonoBehaviour
         RenameSections();
     }
 
-    [Button]
+    //[Button]
     public void AddLeaf()
     {
         // get random section
@@ -157,7 +157,7 @@ public class StemScaleAdjust : MonoBehaviour
         leaf.transform.forward = edgePos - section.transform.position;
         leaf.transform.parent = section.transform;
     }
-    [Button]
+    //[Button]
     public void RenameSections()
     {
         for (int i = 0; i < sway.pivots.Count; i++)

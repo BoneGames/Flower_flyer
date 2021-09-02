@@ -15,33 +15,60 @@ MonoBehaviour:
   on: 1
   effectSettings:
   - paramName: 
-    minMax: {x: 0, y: 0.8}
+    minMax: {x: 0, y: 1}
     curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: 0
-        inSlope: 0.47988397
-        outSlope: 0.47988397
+        inSlope: 0.009141506
+        outSlope: 0.009141506
         tangentMode: 34
         weightedMode: 0
         inWeight: 0
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.5899358
-        value: 0.28310072
-        inSlope: 1.1140724
-        outSlope: 1.1140724
+        time: 0.1877068
+        value: 0.0017159227
+        inSlope: 0.037836965
+        outSlope: 0.037836965
         tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 0.56824243
+        value: 0.02703388
+        inSlope: 0.32025924
+        outSlope: 0.32025924
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.70400256
+        value: 0.1049583
+        inSlope: 0.97042257
+        outSlope: 0.97042257
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.81146747
+        value: 0.25184768
+        inSlope: 2.1560926
+        outSlope: 2.1560926
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.6385958
+        outWeight: 0.29135755
+      - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: 1.748261
-        outSlope: 1.748261
+        inSlope: 3.968293
+        outSlope: 3.968293
         tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334

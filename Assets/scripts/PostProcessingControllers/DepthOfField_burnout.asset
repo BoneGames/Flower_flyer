@@ -15,30 +15,39 @@ MonoBehaviour:
   on: 1
   effectSettings:
   - paramName: focusDistance
-    minMax: {x: 6, y: 12}
+    minMax: {x: 6, y: 10}
     curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: 0
-        inSlope: 1
-        outSlope: 1
+        inSlope: 0.39075643
+        outSlope: 0.39075643
         tangentMode: 34
         weightedMode: 0
         inWeight: 0
-        outWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.66979647
+        value: 0.26172727
+        inSlope: 1.3132837
+        outSlope: 1.3132837
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: 1
-        outSlope: 1
+        inSlope: 2.235811
+        outSlope: 2.235811
         tangentMode: 34
         weightedMode: 0
-        inWeight: 0
+        inWeight: 0.33333334
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  debugVal: 12
+  debugVal: 10
   effect: {fileID: 0}

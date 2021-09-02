@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+//using NaughtyAttributes;
 using System.Linq;
 
 public class Distance_Check_Test : MonoBehaviour
@@ -17,7 +17,7 @@ public class Distance_Check_Test : MonoBehaviour
         if(isEnabled)
             GetAllBunches();
     }
-    [Button]
+    //[Button]
     public void RefreshAllBunches()
     {
         foreach (var item in allBunches)
@@ -26,7 +26,7 @@ public class Distance_Check_Test : MonoBehaviour
         }
     }
 
-    [Button]
+    //[Button]
     public void CheckDicts()
     {
         foreach (var item in allBunches)
@@ -34,7 +34,7 @@ public class Distance_Check_Test : MonoBehaviour
             Debug.Log(item.matDuosDict.Keys.Count);
         }
     }
-    [Button]
+    //[Button]
     public void AllTrans()
     {
         foreach (var item in allBunches)
@@ -42,7 +42,7 @@ public class Distance_Check_Test : MonoBehaviour
             item.SwitchMats(true);
         }
     }
-    [Button]
+    //[Button]
     public void AllOpaque()
     {
         foreach (var item in allBunches)
@@ -51,7 +51,7 @@ public class Distance_Check_Test : MonoBehaviour
         }
     }
 
-    [Button]
+    //[Button]
     public void GetAllBunches()
     {
         allBunches = GameObject.FindGameObjectsWithTag("bunch").Where(o => o.GetComponent<Bunch_Mat_Switcher>() != null).Select(o => o.GetComponent<Bunch_Mat_Switcher>()).ToArray();

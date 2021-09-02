@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+//using NaughtyAttributes;
 
 public class Leaf_Delete : MonoBehaviour
 {
-    [Button]
+    //[Button]
     public void LeafGo()
     {
         MoveUp[] rs = GetComponentsInChildren<MoveUp>();

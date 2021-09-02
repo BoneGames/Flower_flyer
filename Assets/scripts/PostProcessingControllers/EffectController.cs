@@ -19,7 +19,7 @@ public abstract class EffectController : ScriptableObject
         debugVal = val.ToString();
     }
 
-    public virtual void MinMax()
+    public virtual void MinMax(bool toMin = false)
     {
         foreach (var item in effectSettings)
         {
@@ -27,7 +27,8 @@ public abstract class EffectController : ScriptableObject
             //float larger = item.minMax.x < item.minMax.y ? item.minMax.y : item.minMax.x;
 
             //ControlEffect(item.paramName, min ? smaller : larger);
-            ControlEffect(item.paramName, item.minMax.y);
+            float val = toMin ? item.minMax.x : item.minMax.y;
+            ControlEffect(item.paramName, val);
         }
     }
 

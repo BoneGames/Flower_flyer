@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+//using NaughtyAttributes;
 
 public class Bunch_Mat_Switcher : MonoBehaviour
 {
@@ -22,7 +22,7 @@ public class Bunch_Mat_Switcher : MonoBehaviour
     {
         //isTrans = true;
     }
-    [Button]
+    //[Button]
     public void PopulateDict()
     {
         matDuosDict = new Dictionary<string, Material>();

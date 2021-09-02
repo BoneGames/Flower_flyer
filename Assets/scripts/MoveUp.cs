@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+//using NaughtyAttributes;
 
 public class MoveUp : MonoBehaviour
 {
-    [Button]
+    //[Button]
     public void Up()
     {
         Transform newParent = transform.parent.parent.GetChild(1).GetChild(0);
@@ -18,7 +18,7 @@ public class MoveUp : MonoBehaviour
         }
 
     }
-    [Button]
+    //[Button]
     public void Down()
     {
         Transform newParent = transform.parent.parent.parent.GetChild(0);
@@ -32,7 +32,7 @@ public class MoveUp : MonoBehaviour
         }
     }
 
-    [Button]
+    //[Button]
     public void NewAngle()
     {
         // get random section

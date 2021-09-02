@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+//using NaughtyAttributes;
 
 public class Bunch_Builder : MonoBehaviour
 {
@@ -41,7 +41,7 @@ public class Bunch_Builder : MonoBehaviour
 
     [Header("World")]
     public GameObject buildTilePrefab;
-    [Button]
+    //[Button]
     public void BuildWorld()
     {
         GameObject World = new GameObject();
@@ -59,7 +59,7 @@ public class Bunch_Builder : MonoBehaviour
             }
         }
     }
-    [Button]
+    //[Button]
     public void BuildTile()
     {
         GetSizeScale();

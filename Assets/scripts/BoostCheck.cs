@@ -9,6 +9,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
     public class BoostCheck
     {
         #region DATA_STRUCTURES
+        public enum InteruptionTrigger
+        {
+            MouseDown, MouseUp, SpaceBar, None
+        }
+
         [Serializable]
         public enum BoostPart
         {
@@ -26,7 +31,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             public BoostPart thisPart;
             public float duration;
-            public bool uninteruptable, click2Interupt;
+            public InteruptionTrigger interuptTrigger;
+            public bool toMinOnInterupt;
             public AnimationCurve speedCurve;
             public EffectController[] effects;
 
@@ -48,12 +54,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
             }
 
-            public void CompleteCurve()
+            public void CompleteCurve(bool toMin = false)
             {
                 foreach (var effect in effects)
                 {
                     if (effect.on)
-                        effect.MinMax();
+                        effect.MinMax(toMin);
                 }
             }
         }
@@ -305,7 +311,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         void SetEffectVals(BoostValues _boost, float _timer)
         {
             // control PP effects
-            //SpeedEffectCurve fieldCurve = GetSpeedEffectCurve(_boost);
             SpeedEffectCurve sEC = _boost.boostPartsDict[BoostPart_];
             sEC.ControlEffects(_timer);
         }
@@ -314,38 +319,40 @@ namespace UnityStandardAssets.Characters.FirstPerson
         #region BOOST_SETTING_LOGIC
         void TryExitStage(float _timer, SpeedEffectCurve sEC, BoostState nextBoost)
         {
-            if (!CanExit(_timer, sEC.uninteruptable, sEC.click2Interupt))
+            if (!CanExit(_timer, sEC.interuptTrigger))
                 return;
 
             if (BoostState_ == BoostState.Boost && BoostPart_ == BoostPart.Mid)
                 nextBoost = _timer <= 0 ? BoostState.Burnout : BoostState.None;
+            bool interupted = _timer != 0;
 
-            sEC.CompleteCurve();
+            sEC.CompleteCurve(sEC.toMinOnInterupt && interupted);
 
             BoostCycle(nextBoost, _timer);
         }
 
-        bool CanExit(float _timer, bool uninteruptable, bool click2Interupt)
+        bool CanExit(float _timer, InteruptionTrigger interuptTrigger)
         {
             // if timer is up - can exit
             if (_timer <= 0)
                 return true;
 
-            if (uninteruptable)
-                return false;
-
-            // interuption 
-            if (click2Interupt)
+            switch (interuptTrigger)
             {
-                // continue cruising if pre boost stage
-                if (Input.GetMouseButton(0))
-                    return true;
-            }
-            else
-            {
-                // continue boosting if on boost
-                if (!Input.GetMouseButton(0))
-                    return true;
+                case InteruptionTrigger.MouseDown:
+                    // continue cruising if pre boost stage
+                    if (Input.GetMouseButton(0))
+                        return true;
+                    break;
+                case InteruptionTrigger.MouseUp:
+                    // continue boosting if on boost
+                    if (!Input.GetMouseButton(0))
+                        return true;
+                    break;
+                case InteruptionTrigger.SpaceBar:
+                    if (Input.GetKey(KeyCode.Space))
+                        return true;
+                    break;
             }
             return false;
         }

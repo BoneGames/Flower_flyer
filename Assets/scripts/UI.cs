@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour
 {
+    public bool debugMode;
     [SerializeField] private Text transitionState;
     [SerializeField] private Text boostState;
     [SerializeField] private Text soundZones;
@@ -19,16 +20,15 @@ public class UI : MonoBehaviour
     
     public void SetTransitionStateLabel(string state)
     {
-        transitionState.text = state;
+        if(debugMode)
+            transitionState.text = state;
     }
 
-    //public void ShowSoundZones(string[] sounds)
-    //{
-    //    soundZones.text = string.Join("\n", sounds);
-    //}
     public List<string> soundZonesList = new List<string>();
     public void ShowSoundZones(string note, bool show)
     {
+        if (!debugMode)
+            return;
         if(show)
         {
             soundZonesList.Add(note);
@@ -42,7 +42,8 @@ public class UI : MonoBehaviour
 
     public void SetBoostStateLabel(string state)
     {
-        boostState.text = state;
+        if(debugMode)
+            boostState.text = state;
     }
 
     public void SetSkyboxName(string name)
@@ -55,29 +56,29 @@ public class UI : MonoBehaviour
         portalCamsActive[cam].color = enabled ?  Color.green : Color.red;
     }
 
-    public void RegisterPortalCam(string dir)
-    {
-        Text activeCamDisplay = null;
-        foreach (Transform t in portalCamsParent)
-        {
-            if(t.name == dir)
-            {
-                activeCamDisplay = t.GetComponent<Text>();
-                break;
-            }
-        }
-        activeCamDisplay.text = dir.Substring(0, 1);
-        portalCamsActive.Add(dir, activeCamDisplay);
-    }
+    //public void RegisterPortalCam(string dir)
+    //{
+    //    Text activeCamDisplay = null;
+    //    foreach (Transform t in portalCamsParent)
+    //    {
+    //        if(t.name == dir)
+    //        {
+    //            activeCamDisplay = t.GetComponent<Text>();
+    //            break;
+    //        }
+    //    }
+    //    activeCamDisplay.text = dir.Substring(0, 1);
+    //    portalCamsActive.Add(dir, activeCamDisplay);
+    //}
 
-    private void Update()
-    {
-        if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
-        {
-            if(Input.GetKeyDown(KeyCode.R))
-            {
-                SceneManager.LoadScene(0);
-            }
-        }
-    }
+    //private void Update()
+    //{
+    //    if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+    //    {
+    //        if(Input.GetKeyDown(KeyCode.R))
+    //        {
+    //            SceneManager.LoadScene(0);
+    //        }
+    //    }
+    //}
 }
